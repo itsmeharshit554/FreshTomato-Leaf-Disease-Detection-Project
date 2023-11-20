@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+    body {
+      margin: 0;
+      font-family: Roboto, sans-serif;
+      
+    }
+
+    .navbar {
+      background-color: black;
+      padding: 15px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-logo {
+      width: 180px; /* Adjust the width of the logo as needed */
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Add some content to demonstrate the navbar */
+    .content {
+      /* padding: 20px; */
+      padding-bottom:15rem;
+      padding-top:3%;
+      background-color:#83E900;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+.hero-head
+{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.hero-sec
+{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+width: 750px;
+margin: 2vh;
+/* height: 156px; */
+font-weight: 400;
+line-height: normal;
+}
+.btn-grp
+{
+
+}
+.upload-btn {
+  border-radius: 10px;
+  background: #000;
+  width: 300px;
+  height: 50px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4rem;
+  margin-right: 1rem;
+
+  /* Add animation properties */
+  animation: bounce 0.5s ease infinite;
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-20px);
+  }
+  60% {
+      transform: translateY(-10px);
+  }
+}
+
+
+.not-submit
+{   
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    border: 3px solid #FFF;
+    color:white;
+    cursor: not-allowed;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.00);
+}
+.submit 
+{   
+    cursor:pointer;
+    pointer-events:all;
+    width: 200px;
+    border-radius: 10px;
+    background: white;
+    color:black;
+    height: 50px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+
+}
+.final-report
+{
+
+}
+.report-head
+{   margin-top:3rem;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.report-main
+{   margin-top:7%;
+    display: grid;
+    grid-template-columns:36% 64%;
+}
+.report-cnt
+{   display:grid;
+    grid-template-rows:30% 70%;
+}
+.disease-report
+{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    
+
+}
+.sugg
+{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.final-sugg
+{
+    color: #000;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143.555%; /* 38.76px */
+}
