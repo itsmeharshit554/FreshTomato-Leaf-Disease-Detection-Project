@@ -5,6 +5,7 @@ html
 }    
 ::-webkit-scrollbar {
   display: none;
+	overflow: hidden;
 }
 body {
       margin: 0;
