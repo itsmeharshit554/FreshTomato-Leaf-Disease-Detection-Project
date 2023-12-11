@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link href="{{url_for('static',filename='style.css')}}" rel="stylesheet">    
+</head>
+<body>
+    <div class="navbar">
+        <img src="{{url_for('static',filename='logo.png')}}" alt="Logo" class="navbar-logo"> <!-- Replace 'your-logo.png' with the path to your logo image -->
+        <div class="navbar-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    
+      <div class="content">
+        <h1 class="hero-head">Welcome to Fresh Tomato</h1>
+        <p class="hero-sec">Empowering Farmers and Gardeners for Bountiful and Healthy Harvests</p>
+        <p class="hero-sec">Your Health Checker for Plants and Crops</p>
+        <div class="btn-grp">
+            <form enctype=multipart/form-data method="post" >
+            <!-- <button class="upload-btn" onclick="document.getElementById('file-input').click()">Upload Photo</button> -->
+            <input type="file" id="file-input" style="display:none" accept="image/*">
+            <input type="submit" value="Submit"class="not-submit btn btn-info" onclick="myFunction()"> Submit</button>
+            </form>
+        </div>
+      </div>
+    <hr>
+      <div class="final-report">
+        <div class="report-head">Health Report</div>
+    <div class="report-main">
+    <img src="{{url_for('static',filename={{img_path}})}}">
+     <div class="report-cnt">
+
+        {% if dis %}
+        <div class="disease-report">Disease:{{dis}}</div>
+        {% endif %}
+
+        <div class="sugg">Suggsetions
+
+            <!-- {% if sug %}
+            <div class="final-sugg">
+                {{sug}}
+             </div>
+             {% endif %} -->
+        </div></div></div></div>
+
+        <p>
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                <ul>
+                {% for message in messages %}
+                  <li>{{ message }}</li>
+                {% endfor %}
+                </ul>
+              {% endif %}
+            {% endwith %}
+        </p>
+        {% if filename %}
+            <div>
+                <img style="height:225px;width:225px;" src="{{ url_for('display_image', filename=filename) }}">
+            </div>
+        {% endif %}
+        <form method="post" action="/" enctype="multipart/form-data">
+            <dl>
+                <p>
+                    <!-- <input type="file" name="file" class="form-control" autocomplete="off" required> -->
+                </p>
+            </dl>
+            <p>
+                <input type="submit" value="Submit" class="btn btn-info">
+            </p>
+        </form>
+
+
+
+    <script>
+        function myFunction()
+        {
+            alert("Image got submitted");
+        }
+        var uploadBtn=document.getElementsByClassName("upload-btn");
+        var submitBtn=document.getElementsByClassName("not-submit")[0].classList;;
+        var fileInput=document.getElementById("file-input");
+        fileInput.addEventListener("change",function()
+        {
+            if(fileInput.files.length>0)
+            {
+                console.log("File selected:",fileInput.files);
+                submitBtn.add('submit');
+            }
+            else
+            {
+                alert("No file is Selected. Please select an image");
+                submitBtn.remove('submit');
+            }
+        })
+    </script>
+
+
+<script>
+    function uploadFile() {
+        var input = document.getElementById('file-input');
+        var file = input.files[0];
+
+        if (!file) {
+            alert("Please select a file");
+            return;
+        }
+
+        var formData = new FormData();
+        formData.append('image', file);
+
+        fetch('/upload', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log(data);
+            // Handle the response as needed
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+</script>
+</body>
+</html>
