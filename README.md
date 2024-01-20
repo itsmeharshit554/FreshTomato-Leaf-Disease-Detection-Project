@@ -1,11 +1,11 @@
 # FreshTomato-Leaf Disease Detection
  ![logo](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/0b03613c-598e-4070-98de-c1e29a66e226)
 ## Index
-  * [Project Summary](#summary)
+  * [Project Summary](#project-summary)
   * [Motive](#motive)
-  * [Tech Stack](#stack)
-  * [Steps To Use it](#steps)
-  * [Project In Action](#project)  
+  * [Tech Stack](#tech-stack)
+  * [Steps To Use it](#steps-to-use-it)
+  * [Project In Action](#project-in-action)  
 
  
  ## Project Summary
