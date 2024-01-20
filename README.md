@@ -25,8 +25,7 @@ Or You can open the Google Collab File
 
 
 ## Steps To Use it
-### Download the .h5 file CNN Model
-[Download .h5 file](https://drive.google.com/file/d/1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad/view?usp=sharing)
+
 
 ### Activate Git on Bash
 ```bash
@@ -44,6 +43,9 @@ pip install Flask Flask-Uploads opencv-python numpy keras tensorflow Werkzeug
 ```bash
  cd FreshTomato-Leaf-Disease-Detection-Project
 ```
+### Download the .h5 file CNN Model
+[Download .h5 file](https://drive.google.com/file/d/1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad/view?usp=sharing)
+Insert this file in the same folder in which all the other files are present.
 ### Run the Python (Flask) file
 
 ```bash
