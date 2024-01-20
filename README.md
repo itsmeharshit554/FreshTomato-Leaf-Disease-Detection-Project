@@ -80,7 +80,9 @@ python -u app.py
 
 ![Screenshot 2024-01-20 122127](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/f4be9f1f-ddbc-42d7-861e-869cb45ee692)
 
-### Made by Harshit Saini
+### Thank You for visiting my Project repository
+#### Regards, Harshit :)
+ 
 
 
 
