@@ -46,4 +46,16 @@ pip install Flask Flask-Uploads opencv-python numpy keras tensorflow Werkzeug
 ```bash
 python -u app.py
 ```
+## Project In Action
+
+![Screenshot 2024-01-20 121937](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/64df132d-f8fe-4f47-ae54-1f358183029e)
+
+![Screenshot 2024-01-20 121955](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/615a16dc-ca39-4530-a681-e0383cbada5a)
+
+![Screenshot 2024-01-20 122009](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/7cd10a9c-4e24-4818-9f8f-698f52873394)
+
+![Screenshot 2024-01-20 122127](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/f4be9f1f-ddbc-42d7-861e-869cb45ee692)
+
+
+
 
