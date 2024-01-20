@@ -1,5 +1,6 @@
 # FreshTomato-Leaf Disease Detection
  ![logo](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/0b03613c-598e-4070-98de-c1e29a66e226)
+ 
 I started working on this project in December 2023. It's an AI Leaf Health Detector that analyses a plant's image to determine whether it's healthy or not, and if it's not, it provides suggestions to cure it.
 
 ### Tech Stack
