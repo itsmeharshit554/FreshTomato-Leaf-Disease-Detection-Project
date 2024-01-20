@@ -19,7 +19,8 @@ This README file does not contain the .h5 file due to being too big
 I have attached a link to that file
 File for .h5 file: https://drive.google.com/file/d/1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad/view?usp=sharing
 Or You can open the Google Collab File
-![Open In Colab](https://colab.research.google.com/drive/1pmUQj8MyT7y1zLTlsuOJ3geo5SFgZ__M#scrollTo=U7qwzeHIgzY1)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pmUQj8MyT7y1zLTlsuOJ3geo5SFgZ__M#scrollTo=U7qwzeHIgzY1)
+
 
 
 
