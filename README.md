@@ -25,6 +25,9 @@ Or You can open the Google Collab File
 
 
 ## Steps To Use it
+### Download the .h5 file CNN Model
+[Download .h5 file](https://drive.google.com/file/d/1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad/view?usp=sharing)
+
 ### Activate Git on Bash
 ```bash
 git init
@@ -55,6 +58,7 @@ python -u app.py
 ![Screenshot 2024-01-20 122009](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/7cd10a9c-4e24-4818-9f8f-698f52873394)
 
 ![Screenshot 2024-01-20 122127](https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-Project/assets/111944580/f4be9f1f-ddbc-42d7-861e-869cb45ee692)
+
 
 
 
