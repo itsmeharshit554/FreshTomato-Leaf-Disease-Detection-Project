@@ -15,12 +15,13 @@ I started working on this project back in November 2023 and completed it in Dece
 * Google Colab
 * Figma
   
-This file does not contain the .h5 file due to being too big
+This README file does not contain the .h5 file due to being too big
 I have attached a link to that file
 File for .h5 file: https://drive.google.com/file/d/1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad/view?usp=sharing
-![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+Or You can open the Google Collab File
+![Open In Colab](https://colab.research.google.com/drive/1pmUQj8MyT7y1zLTlsuOJ3geo5SFgZ__M#scrollTo=U7qwzeHIgzY1)
 
-(https://colab.research.google.com/drive/1pmUQj8MyT7y1zLTlsuOJ3geo5SFgZ__M#scrollTo=U7qwzeHIgzY1)
+
 
 ## Steps To Use it
 ### Activate Git on Bash
@@ -35,7 +36,7 @@ git clone https://github.com/itsmeharshit554/FreshTomato-Leaf-Disease-Detection-
 ```bash
 pip install Flask Flask-Uploads opencv-python numpy keras tensorflow Werkzeug
 ```
-### Enter in the Leaf Detection Website
+### Enter in the Leaf Detection Website folder
 ```bash
  cd FreshTomato-Leaf-Disease-Detection-Project
 ```
