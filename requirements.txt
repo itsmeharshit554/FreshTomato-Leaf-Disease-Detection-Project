@@ -13,7 +13,6 @@ argcomplete==3.1.6
 asttokens==2.4.1
 astunparse==1.6.3
 async-timeout==4.0.2
-asyncio==3.4.3
 attrs==23.1.0
 autobahn==19.11.2
 Automat==22.10.0
@@ -88,7 +87,6 @@ google-auth==2.23.4
 google-auth-oauthlib==1.1.0
 google-pasta==0.2.0
 googletrans==4.0.0rc1
-googletrans-py==4.0.0
 gradio==4.23.0
 gradio_client==0.14.0
 greenlet==3.1.1
@@ -180,7 +178,6 @@ pdfminer.six==20221105
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==10.1.0
-pillowcase==1.1.8
 pipreqs==0.5.0
 pipx==1.2.1
 pke @ git+https://github.com/boudinfl/pke.git@69871ffdb720b83df23684fea53ec8776fd87e63
