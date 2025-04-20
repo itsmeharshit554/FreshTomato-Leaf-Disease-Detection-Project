@@ -269,7 +269,7 @@ tensorboard==2.15.1
 tensorboard-data-server==0.7.2
 tensorflow==2.15.0
 tensorflow-estimator==2.15.0
-tensorflow-intel==2.15.0
+# tensorflow-intel==2.15.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 textwrap3==0.9.2
