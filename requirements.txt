@@ -200,8 +200,8 @@ PyAudio==0.2.14
 pycares==4.3.0
 pycparser==2.21
 pycryptodome==3.19.0
+pydantic-core==2.16.3
 pydantic==2.6.4
-pydantic_core==2.14.3
 pydub==0.25.1
 pygame==2.5.2
 Pygments==2.17.2
