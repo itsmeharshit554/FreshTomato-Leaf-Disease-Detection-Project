@@ -11,24 +11,8 @@ from werkzeug.utils import secure_filename
 import gdown
 
 
-def download_model_from_drive():
-    model_url = "https://drive.google.com/file/d/1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad/view?usp=drive_link"  # Replace FILE_ID with the actual ID from the shareable link
-    model_path = "final_tomato.h5s"
-    if not os.path.exists(model_path):
-        print("Downloading model from Google Drive...")
-        gdown.download(model_url, model_path, quiet=False)
-    return model_path
-
 def predic_num(file_add):
-    model_url = "https://drive.google.com/uc?id=1q53qq1eXceUbpGJzf3oAoHjAKYadc3Ad"  # Direct download link
-    model_path = "temp_model.h5"  # Temporary file path for the model
-
-    # Download the model from Google Drive if not already downloaded
-    if not os.path.exists(model_path):
-        print("Downloading model from Google Drive...")
-        gdown.download(model_url, model_path, quiet=False)
-
-    # Load the model
+    model_path = "final_tomato.h5"
     load_mod = load_model(model_path)
     load_mod.summary()
     tomato_disease_mapping = {
